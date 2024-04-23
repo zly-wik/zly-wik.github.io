@@ -3,45 +3,120 @@ html {
 }
 
 body {
-  background-image: linear-gradient(90deg, #4d3685, #1a0a3c);
+  background-image: linear-gradient(90deg, #3e0d7b, #465d85);
   color: #c8d1ea;
+  margin: 0;
+}
+
+.scroll-animator {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
 }
 
 .home-page {
   display: flex;
   flex-direction: column;
   min-height: 90vh;
-  margin-top: 2rem;
-  margin-left: 2rem;
-}
-
-.home-title-block {
-  margin-top: 5rem;
-  margin-left: 2rem;
+  height: 95vh;
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
 
 .title-header {
-  font-size: 9rem;
+  font-size: 3rem;
   margin: 0;
 }
 
 .subtitle-header {
-  font-size: 4.5rem;
+  font-size: 1.5rem;
   font-weight: 400;
   font-style: italic;
   margin: 0;
 }
 
 .home-icons-container {
+  width: 45vw;
   margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 0;
+  float: left;
+}
+
+.home-icon-block {
+  min-height: 25px;
+  max-height: 50px;
+  padding: 0;
+  width: 100%;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  float: left;
 }
 
 .home-icon {
   min-height: 25px;
-  max-height: 100px;
+  max-height: 50px;
+  padding: 0;
+  width: fit-content;
+  /* margin-top: 1rem; */
+  margin-right: 1rem;
+  float: left;
 }
 
-.home-icon:last-child {
-  min-height: 100px;
-  max-height: 400px;
+.home-icon-text {
+  padding-top: 1rem;
+}
+
+
+@media screen and (min-width: 1025px) {
+  .home-page {
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    /* margin-top: 2rem; */
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .home-title-block {
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+
+  .title-header {
+    font-size: 9rem;
+    margin: 0;
+  }
+
+  .subtitle-header {
+    font-size: 4.5rem;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0;
+  }
+
+  .home-icons-container {
+    width: 95vw;
+    margin-top: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .home-icon-block {
+    min-height: 25px;
+    max-height: 50px;
+    padding: 0;
+    width: 10vw;
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  .home-icon {
+    min-height: 25px;
+    max-height: 100px;
+    float: left;
+  }
+
+  .home-icon-text {
+    display: none;
+  }
 }

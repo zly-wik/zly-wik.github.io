@@ -15,12 +15,30 @@ export default function Home() {
                 <h2 className='subtitle-header'>Python Backend Developer</h2>
             </div>
             <div className='home-icons-container'>
-                <BiCode size={200} className='home-icon' />
-                <TbBrandPython size={200} className='home-icon' />
-                <TbBrandDjango size={200} className='home-icon' />
-                <BiGitBranch size={200} className='home-icon' />
-                <MdHttp size={200} className='home-icon' />
-                <FaLaptopCode size={400} className='home-icon' />
+                <div className='home-icon-block'>
+                    <BiCode size={200} className='home-icon' />
+                    <div className='home-icon-text'>Programming</div>
+                </div>
+                <div className='home-icon-block'>
+                    <TbBrandPython size={200} className='home-icon' />
+                    <div className='home-icon-text'>Python (OOP)</div>
+                </div>
+                <div className='home-icon-block'>
+                    <TbBrandDjango size={200} className='home-icon' />
+                    <div className='home-icon-text'>Django, DRF</div>
+                </div>
+                <div className='home-icon-block'>
+                    <BiGitBranch size={200} className='home-icon' />
+                    <div className='home-icon-text'>Git & GitHub</div>
+                </div>
+                <div className='home-icon-block'>
+                    <MdHttp size={200} className='home-icon' />
+                    <div className='home-icon-text'>Web apps</div>
+                </div>
+                <div className='home-icon-block'>
+                    <FaLaptopCode size={400} className='home-icon' />
+                    <div className='home-icon-text'>and much more...</div>
+                </div>
             </div>
         </div>
     )
