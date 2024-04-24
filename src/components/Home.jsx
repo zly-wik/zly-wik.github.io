@@ -9,7 +9,7 @@ import { MdHttp } from 'react-icons/md'
 
 export default function Home() {
     return (
-        <div className='home-page'>
+        <div className='single-page'>
             <div className='home-title-block'>
                 <h1 className='title-header'>Wiktor Bader</h1>
                 <h2 className='subtitle-header'>Python Backend Developer</h2>

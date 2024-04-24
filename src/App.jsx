@@ -1,6 +1,8 @@
 import './App.css';
 import Home from './components/Home';
-import { ScrollContainer, ScrollPage, Animator, Fade, batch, Sticky, MoveOut, MoveIn } from 'react-scroll-motion';
+import About from './components/About';
+import Skills from './components/Skills';
+import { ScrollContainer, ScrollPage, Animator, Fade, batch, Sticky, MoveIn } from 'react-scroll-motion';
 
 function App() {
   return (
@@ -13,7 +15,13 @@ function App() {
 
       <ScrollPage className='scroll-page'>
         <Animator animation={batch(Fade(), MoveIn(0, 100), Sticky())} className='scroll-animator'>
-          <Home />
+          <About />
+        </Animator>
+      </ScrollPage>
+
+      <ScrollPage className='scroll-page'>
+        <Animator animation={batch(Fade(), MoveIn(0, 100), Sticky())} className='scroll-animator'>
+          <Skills />
         </Animator>
       </ScrollPage>
     </ScrollContainer>
