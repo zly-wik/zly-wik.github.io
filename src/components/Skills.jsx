@@ -12,7 +12,7 @@ export default function Skills() {
 
   return (
     <div className='single-page'>
-        <div className='home-title-block'>
+        <div className='title-block'>
             <h1 className='title-header'>Skills</h1>
         </div>
         <div className='skills-box-group small-screens-only'>

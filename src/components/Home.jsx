@@ -10,11 +10,11 @@ import { MdHttp } from 'react-icons/md'
 export default function Home() {
     return (
         <div className='single-page'>
-            <div className='home-title-block'>
+            <div className='title-block'>
                 <h1 className='title-header'>Wiktor Bader</h1>
                 <h2 className='subtitle-header'>Python Backend Developer</h2>
             </div>
-            <div className='home-icons-container'>
+            <div className='home-container'>
                 <div className='home-icon-block'>
                     <BiCode size={200} className='home-icon' />
                     <div className='home-icon-text'>Programming</div>
