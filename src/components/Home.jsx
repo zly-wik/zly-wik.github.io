@@ -14,6 +14,15 @@ export default function Home() {
                 <h1 className='title-header'>Wiktor Bader</h1>
                 <h2 className='subtitle-header'>Python Backend Developer</h2>
             </div>
+            <div className='home-container-texts big-screens-only'>
+                <div className='big-screens-only'><br /></div>
+                &emsp;&emsp;Programming&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;PyTest<br /><br />
+                &emsp;&emsp;&emsp;&emsp;&emsp;Python 3.x<br /><br />
+                &emsp;&emsp;Django&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Django REST Framework<br /><br />
+                &emsp;&emsp;&emsp;&emsp;&emsp;Git &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;GitHub<br /><br />
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Web apps<br /><br />
+                and much more...<br /><br />
+            </div>
             <div className='home-container'>
                 <div className='home-icon-block'>
                     <BiCode size={200} className='home-icon' />

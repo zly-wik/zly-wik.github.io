@@ -352,6 +352,17 @@ a:hover {
     margin: auto;
     margin-bottom: 7rem;
   }
+
+  .home-container-texts {
+    font-size: 1.2rem;
+    font-style: italic;
+    width: 65vw;
+    padding-top: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
   
   .home-icon-block {
     min-height: 25px;
@@ -411,5 +422,19 @@ a:hover {
 
   .skills-box:last-child {
     margin-right: 0;
+  }
+}
+
+
+@media screen and (min-width: 920px) {
+  .home-container-texts {
+    font-size: 1.5rem;
+    font-style: italic;
+    width: 65vw;
+    padding-top: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
