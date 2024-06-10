@@ -25,6 +25,7 @@ export default function Skills() {
                 <h2 className='skills-box-header'>
                     Technology
                 </h2>
+                <hr />
                 <ul className='skills-list'>
                     <li className='skills-list-item'>
                         Python 3.x
@@ -56,6 +57,7 @@ export default function Skills() {
                 <h2 className='skills-box-header'>
                     Tools and others
                 </h2>
+                <hr />
                 <ul className='skills-list'>
                     <li className='skills-list-item'>
                         OOP, SOLID, DRY, KISS
@@ -84,6 +86,7 @@ export default function Skills() {
                 <h2 className='skills-box-header'>
                     Soft skills
                 </h2>
+                <hr />
                 <ul className='skills-list'>
                     <li className='skills-list-item'>
                         Proactive approach
@@ -114,6 +117,7 @@ export default function Skills() {
                 <h2 className='skills-box-header'>
                     Technology
                 </h2>
+                <hr />
                 <ul className='skills-list'>
                     <li className='skills-list-item'>
                         Python 3.x
@@ -145,6 +149,7 @@ export default function Skills() {
                 <h2 className='skills-box-header'>
                     Tools and others
                 </h2>
+                <hr />
                 <ul className='skills-list'>
                     <li className='skills-list-item'>
                         OOP, SOLID, DRY, KISS
@@ -173,6 +178,7 @@ export default function Skills() {
                 <h2 className='skills-box-header'>
                     Soft skills
                 </h2>
+                <hr />
                 <ul className='skills-list'>
                     <li className='skills-list-item'>
                         Proactive approach

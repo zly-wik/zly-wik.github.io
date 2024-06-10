@@ -136,6 +136,12 @@ a:hover {
   margin-top: 2rem;
 }
 
+.project-description {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .skills-list-item {
   margin-bottom: 1rem;
 }
