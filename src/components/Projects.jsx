@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Projects() {
-    const [alignment, setAlignment] = React.useState('tech');
+    const [alignment, setAlignment] = React.useState('blog');
 
     const handleChange = (newAlignment) => {
         console.log(newAlignment);
