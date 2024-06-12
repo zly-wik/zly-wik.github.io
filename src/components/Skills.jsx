@@ -1,12 +1,12 @@
 import React from 'react'
 
 export default function Skills() {
-    const [alignment, setAlignment] = React.useState('tech');
+    const [skillsgroup, setSkillsgroup] = React.useState('tech');
 
     const handleChange = (newAlignment) => {
         console.log(newAlignment);
         if (newAlignment !== null) {
-            setAlignment(newAlignment);
+            setSkillsgroup(newAlignment);
         }
     };
 
@@ -16,12 +16,12 @@ export default function Skills() {
             <h1 className='title-header'>Skills</h1>
         </div>
         <div className='skills-box-group small-screens-only'>
-        <div className='skills-toggle-buttons-group' value={alignment}>
-            <div className={alignment === 'tech' ? 'skills-toggle-button-selected' : 'skills-toggle-button'} onClick={() => handleChange('tech')}>Technology</div>
-            <div className={alignment === 'tools' ? 'skills-toggle-button-selected' : 'skills-toggle-button'} onClick={() => handleChange('tools')}>Tools</div>
-            <div className={alignment === 'soft' ? 'skills-toggle-button-selected' : 'skills-toggle-button'} onClick={() => handleChange('soft')}>Soft Skills</div>
+        <div className='skills-toggle-buttons-group' value={skillsgroup}>
+            <div className={skillsgroup === 'tech' ? 'skills-toggle-button-selected' : 'skills-toggle-button'} onClick={() => handleChange('tech')}>Technology</div>
+            <div className={skillsgroup === 'tools' ? 'skills-toggle-button-selected' : 'skills-toggle-button'} onClick={() => handleChange('tools')}>Tools</div>
+            <div className={skillsgroup === 'soft' ? 'skills-toggle-button-selected' : 'skills-toggle-button'} onClick={() => handleChange('soft')}>Soft Skills</div>
         </div>
-        { alignment === 'tech' ? <div className='skills-box'>
+        { skillsgroup === 'tech' ? <div className='skills-box'>
                 <h2 className='skills-box-header'>
                     Technology
                 </h2>
@@ -53,7 +53,7 @@ export default function Skills() {
                     </li>
                 </ul>
             </div> : null}
-        { alignment === 'tools' ? <div className='skills-box'>
+        { skillsgroup === 'tools' ? <div className='skills-box'>
                 <h2 className='skills-box-header'>
                     Tools and others
                 </h2>
@@ -82,7 +82,7 @@ export default function Skills() {
                     </li>
                 </ul>
             </div> : null}
-        { alignment === 'soft' ? <div className='skills-box'>
+        { skillsgroup === 'soft' ? <div className='skills-box'>
                 <h2 className='skills-box-header'>
                     Soft skills
                 </h2>

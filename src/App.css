@@ -30,6 +30,10 @@ a:hover {
   display: none;
 }
 
+.disabled {
+  opacity: 50%;
+}
+
 .scroll-animator {
   margin: 0;
   padding: 0;
